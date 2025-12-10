@@ -68,7 +68,7 @@ body {
     background: var(--bg-body);
     min-height: 100vh;
     color: var(--text-main);
-    transition: background var(--transition-speed) ease, color var(--transition-speed) ease;
+    transition: var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 
 .container {
