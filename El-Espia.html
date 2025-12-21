@@ -57,9 +57,8 @@
 
                         <div id="probabilityInfo" class="probability-info hidden">
                             <strong>Modo Porcentajes Activado:</strong><br>
-                            • 10% - Todos son inocentes<br>
                             • 10% - Todos son espías<br>
-                            • 80% - Según configuración manual
+                            • 90% - Partida Normal (según configuración)
                         </div>
 
                         <div id="randomCategoryInfo" class="probability-info hidden">
@@ -107,7 +106,17 @@
                     </div>
 
                     <button onclick="nextPlayer()" id="nextBtn">Siguiente Jugador</button>
-                    <button onclick="endGame()" id="endBtn" class="hidden">Finalizar Juego</button>
+                    <button onclick="endGame()" id="endBtn" class="hidden">Comenzar Ronda</button>
+                </div>
+
+                <div id="gameplayScreen" class="gameplay-screen hidden">
+                    <div class="gameplay-card">
+                        <div class="gameplay-icon">🎭</div>
+                        <h2>¡A Jugar!</h2>
+                        <p>Todos tienen su rol. Es hora de las preguntas.</p>
+                        <p class="small-text">Traten de descubrir al espía (o pasar desapercibidos).</p>
+                        <button onclick="showResults()" class="pulse-btn">Mostrar Roles</button>
+                    </div>
                 </div>
             </div>
         </div>

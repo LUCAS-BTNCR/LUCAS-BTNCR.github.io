@@ -244,7 +244,8 @@ body.dark-mode button:disabled {
     transform: none;
 }
 
-.intermediate-screen {
+.intermediate-screen,
+.gameplay-screen {
     text-align: center;
     display: flex;
     align-items: center;
@@ -252,7 +253,8 @@ body.dark-mode button:disabled {
     min-height: 400px;
 }
 
-.intermediate-card {
+.intermediate-card,
+.gameplay-card {
     background: var(--spy-card-bg);
     color: var(--spy-card-text);
     padding: 60px 40px;
@@ -263,7 +265,8 @@ body.dark-mode button:disabled {
     border: 1px solid var(--border-color);
 }
 
-.question-mark {
+.question-mark,
+.gameplay-icon {
     font-size: 6em;
     margin-bottom: 20px;
     animation: float 3s ease-in-out infinite;
